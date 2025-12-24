@@ -1,0 +1,10 @@
+<idea-plugin>
+  <idea-version since-build="253" until-build="253.*" />
+  <id>he.pycharm.languagepack</id>
+  <name>Hebrew Language Pack for PyCharm</name>
+  <vendor>David</vendor>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <languageBundle locale="he" bundle="messages.ActionsBundle" />
+  </extensions>
+</idea-plugin>
